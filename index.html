@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/favicon" href="imagens/netflixicone.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NetunoFlix</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="nav" id="nav">
+        <img class="nav__logo" src="imagens/netuno-logo.png" alt=""/>
+        <img class="nav__avatar" src="imagens/netuno-avatar.png" alt=""/>
+    </div>   
+
+    <header class="banner">
+        <div class="banner__contents">
+            <h1 class="banner__title">Suits</h1>
+            <div class="banner__buttons">
+                <button class="banner__button">Assistir</button>
+                <button class="banner__button">Minha Lista</button>
+            </div>
+            <a class="play" onclick="toggleVideo()"><img src="imagens/play.png">Assista o trailer </a>
+            <h1 class="banner__description">
+                Mesmo sem se formar e sem licença para advogar, um jovem
+                impressiona um importante advogado
+                e consegue uma cobiçada
+                posição em sua firma.
+            </h1>
+        </div>
+        <div class="banner--fadeBottom"></div>   
+    </header>
+
+    <div class="row">
+        <h2>ORIGINAIS NETFLIX</h2>
+        <div class="row__posters">
+          <a href="https://www.youtube.com/watch?v=ebI7b7NoH54" target="_blank">
+            <img class="row__poster row__posterLarge" src="imagens/Large-movie1.jpg" alt="Descrição da imagem" width="300" height="450">
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=2QbtwDpKWxk" target="_blank">
+          <img class="row__poster row__posterLarge" src="imagens/Large-movie2.jpg" alt="Descrição da imagem" width="300" height="450">
+      </a>
+      <a href="https://www.youtube.com/watch?v=YC8SLpnxsL4" target="_blank">
+        <img class="row__poster row__posterLarge" src="imagens/Large-movie3.jpg" alt="Descrição da imagem" width="300" height="450">
+    </a>
+    <a href="https://www.youtube.com/watch?v=kvpNOM5mpgw" target="_blank">
+      <img class="row__poster row__posterLarge" src="imagens/Large-movie4.jpg" alt="Descrição da imagem" width="300" height="450">
+  </a>
+  <a href="https://www.youtube.com/watch?v=2R-MRiEUHKg" target="_blank">
+    <img class="row__poster row__posterLarge" src="imagens/Large-movie5.jpg" alt="Descrição da imagem" width="300" height="450">
+</a>
+<a href="https://www.youtube.com/watch?v=Gx7DgWkXVAE" target="_blank">
+  <img class="row__poster row__posterLarge" src="imagens/Large-movie6.jpg" alt="Descrição da imagem" width="300" height="450">
+</a>
+<a href="https://www.youtube.com/watch?v=hfcf0kAB7cg" target="_blank">
+  <img class="row__poster row__posterLarge" src="imagens/Large-movie7.jpg" alt="Descrição da imagem" width="300" height="450">
+</a>
+<a href="https://www.youtube.com/watch?v=ebI7b7NoH54" target="_blank">
+  <img class="row__poster row__posterLarge" src="imagens/Large-movie8.jpg" alt="Descrição da imagem" width="300" height="450">
+</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Novidades</h2>
+        <div class="row__posterssmall">
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie1.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie2.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie3.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie4.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie5.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie6.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie7.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie8.jpg" alt=""/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Aclamados pela critica</h2>
+        <div class="row__posterssmall">
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie1.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/critica1.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/critica3.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie4.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie5.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie6.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/critica2.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie8.jpg" alt=""/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Ação</h2>
+        <div class="row__posterssmall">
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie1.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/ação2.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie3.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie4.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie5.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie6.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie7.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/Small-movie8.jpg" alt=""/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Comédia</h2>
+        <div class="row__posterssmall">
+            <img class="row__poster row__posterSmall" src="imagens/comedia1.jpeg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/comedia2.jpeg alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/comedia3.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/comedia4.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/comedia5.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/comedia6.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/comedia7.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/comedia8.jpg" alt=""/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Terror</h2>
+        <div class="row__posterssmall">
+            <img class="row__poster row__posterSmall" src="imagens/terror1.jpeg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/terror2.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/terror3.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/terror4.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/terror5.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/terror6.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/terror7.jpg" alt=""/>
+            <img class="row__poster row__posterSmall" src="imagens/terror8.jpg" alt=""/>
+        </div>
+    </div>
+
+    <div class="trailer">
+        <video src="imagens/video.mp4" controls="true"></video>
+        <img src="imagens/close.png" class="close" onclick="toggleVideo()">
+    </div>
+<script>
+function toggleVideo() {
+    const trailer = document.querySelector('.trailer');
+    const video = trailer.querySelector('video');
+    const closeBtn = trailer.querySelector('.close');
+
+    trailer.classList.toggle('active');
+
+    if (video.paused) {
+        video.play();
+    } else {
+        video.pause();
+    }
+
+    closeBtn.addEventListener('click', () => {
+        trailer.classList.remove('active');
+        video.pause();
+    });
+}
+
+const nav = document.getElementById('nav'); 
+window.addEventListener('scroll', () => {
+    if (window.scrollY >= 50) {
+        nav.classList.add('nav__black');
+    } else {
+        nav.classList.remove('nav__black');
+    }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+    
+
+</body>
+</html>
